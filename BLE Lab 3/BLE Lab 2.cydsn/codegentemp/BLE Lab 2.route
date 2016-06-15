@@ -37,9 +37,9 @@ net \ADC:Net_3112\
 	switch ":interrupt_idmux_15.interrupt_idmux_15__out==>:interrupt_15.interrupt"
 	term   ":interrupt_15.interrupt"
 end \ADC:Net_3112\
-net \BLE:Net_15\
+net \BLE_1:Net_15\
 	term   ":p4blecell.interrupt"
 	switch ":p4blecell.interrupt==>:interrupt_idmux_12.in_0"
 	switch ":interrupt_idmux_12.interrupt_idmux_12__out==>:interrupt_12.interrupt"
 	term   ":interrupt_12.interrupt"
-end \BLE:Net_15\
+end \BLE_1:Net_15\

@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLE Lab 2\BLE Lab 2\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLE Lab 2\BLE Lab 2\BLE Lab 2.cydwr">
 <ExpandedNodeIds>
 <v>BLE Lab 2</v>
 <v>BLE Lab 2\BLE Lab 2</v>
@@ -42,32 +42,32 @@
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\ADC_IRQ</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_dis.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_dis.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_eventHandler.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_eventHandler.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_gatt.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_gatt.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_HAL_INT.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_HAL_PVT.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_hrs.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_hrs.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_Stack.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_STACK_PVT.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackGap.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackGatt.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackGattClient.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackGattDb.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackGattServer.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackHostMain.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_StackL2cap.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_bless_isr</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_bless_isr\BLE_bless_isr.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_eventHandler.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_eventHandler.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_gatt.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_gatt.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_HAL_INT.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_HAL_PVT.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_HAL_PVT.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_hrs.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_hrs.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_Stack.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_STACK_PVT.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackGap.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackGatt.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackGattClient.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackGattDb.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackGattServer.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackHostMain.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_StackL2cap.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1_bless_isr</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1_bless_isr\BLE_1_bless_isr.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1_bless_isr\BLE_1_bless_isr.h</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\Button_output</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\Button_output\Button_output.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\Button_output\Button_output.h</v>
@@ -161,10 +161,10 @@
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\ADC_IRQ</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.c</v>
 <v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\ADC_IRQ\ADC_IRQ.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE.c</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE.h</v>
-<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE\BLE_dis.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.c</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1.h</v>
+<v>BLE Lab 2\BLE Lab 2\Generated_Source\PSoC4\BLE_1\BLE_1_dis.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -194,14 +194,14 @@
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\ADC_intClock.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\ADC_IRQ.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\ADC_PM.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_bless_isr.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_dis.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_eventHandler.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_gatt.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_HAL_INT.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_HAL_PVT.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_hrs.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_bless_isr.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_dis.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_eventHandler.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_gatt.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_HAL_INT.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_HAL_PVT.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_hrs.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BleProcessing.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\Button_output.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\Cm0Start.lst</v>
@@ -242,14 +242,14 @@
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\ADC_intClock.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\ADC_IRQ.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\ADC_PM.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_bless_isr.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_dis.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_eventHandler.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_gatt.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_HAL_INT.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_HAL_PVT.lst</v>
-<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_hrs.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_bless_isr.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_dis.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_eventHandler.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_gatt.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_HAL_INT.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_HAL_PVT.lst</v>
+<v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BLE_1_hrs.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\BleProcessing.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\Button_output.lst</v>
 <v>BLE Lab 2\BLE Lab 2\CortexM0\ARM_GCC_484\Debug\Listing Files\Cm0Start.lst</v>

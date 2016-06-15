@@ -2,7 +2,7 @@
 --	Conversion of BLE Lab 2.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Jun 26 12:22:35 2015
+--	Tue Jun 14 22:32:03 2016
 --
 
 USE cypress.cypress.all;
@@ -40,10 +40,6 @@ SIGNAL tmpFB_0__Led_Connected_Blue_net_0 : bit;
 SIGNAL tmpIO_0__Led_Connected_Blue_net_0 : bit;
 TERMINAL tmpSIOVREF__Led_Connected_Blue_net_0 : bit;
 SIGNAL tmpINTERRUPT_0__Led_Connected_Blue_net_0 : bit;
-SIGNAL \BLE:Net_15\ : bit;
-SIGNAL \BLE:Net_53\ : bit;
-SIGNAL Net_1213 : bit;
-SIGNAL \BLE:Net_55\ : bit;
 TERMINAL \Opamp:Net_9\ : bit;
 TERMINAL \Opamp:Net_18\ : bit;
 TERMINAL \Opamp:Net_29\ : bit;
@@ -169,6 +165,10 @@ TERMINAL \ADC:mux_bus_minus_12\ : bit;
 TERMINAL \ADC:mux_bus_minus_13\ : bit;
 TERMINAL \ADC:mux_bus_minus_14\ : bit;
 TERMINAL \ADC:mux_bus_minus_15\ : bit;
+SIGNAL \BLE_1:Net_15\ : bit;
+SIGNAL \BLE_1:Net_53\ : bit;
+SIGNAL Net_1313 : bit;
+SIGNAL \BLE_1:Net_55\ : bit;
 BEGIN
 
 zero <=  ('0') ;
@@ -523,23 +523,6 @@ Led_Connected_Blue:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__Heart_Rate_input_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__Led_Connected_Blue_net_0);
-\BLE:cy_m0s8_ble\:cy_m0s8_ble_v1_0
-	GENERIC MAP(cy_registers=>"")
-	PORT MAP(interrupt=>\BLE:Net_15\,
-		rf_ext_pa_en=>open);
-\BLE:bless_isr\:cy_isr_v1_0
-	GENERIC MAP(int_type=>"10")
-	PORT MAP(int_signal=>\BLE:Net_15\);
-\BLE:LFCLK\:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"d6d8d3ae-b1e8-46cc-9960-fb30aabf2075/5ae6fa4d-f41a-4a35-8821-7ce70389cb0c",
-		source_clock_id=>"9A908CA6-5BB3-4db0-B098-959E5D90882B",
-		divisor=>0,
-		period=>"0",
-		is_direct=>'1',
-		is_digital=>'0')
-	PORT MAP(clock_out=>\BLE:Net_53\,
-		dig_domain_out=>open);
 \Opamp:cy_psoc4_abuf\:cy_psoc4_abuf_v1_0
 	GENERIC MAP(cy_registers=>"",
 		needs_dsab=>'0',
@@ -908,5 +891,22 @@ Led_Connected_Blue:cy_psoc3_pins_v1_10
 		dig_domain_out=>open);
 \ADC:cy_analog_noconnect_5\:cy_analog_noconnect_v1_0
 	PORT MAP(noconnect=>\ADC:Net_3227\);
+\BLE_1:cy_m0s8_ble\:cy_m0s8_ble_v1_0
+	GENERIC MAP(cy_registers=>"")
+	PORT MAP(interrupt=>\BLE_1:Net_15\,
+		rf_ext_pa_en=>open);
+\BLE_1:bless_isr\:cy_isr_v1_0
+	GENERIC MAP(int_type=>"10")
+	PORT MAP(int_signal=>\BLE_1:Net_15\);
+\BLE_1:LFCLK\:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"e64f504d-0d26-489f-ba63-f83f8367a241/5ae6fa4d-f41a-4a35-8821-7ce70389cb0c",
+		source_clock_id=>"9A908CA6-5BB3-4db0-B098-959E5D90882B",
+		divisor=>0,
+		period=>"0",
+		is_direct=>'1',
+		is_digital=>'0')
+	PORT MAP(clock_out=>\BLE_1:Net_53\,
+		dig_domain_out=>open);
 
 END R_T_L;

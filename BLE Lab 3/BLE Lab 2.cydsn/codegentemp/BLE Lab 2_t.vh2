@@ -1,5 +1,5 @@
--- Project:   C:\Users\szimmo\Downloads\UWO\ece9407\ble\Cypress BLE Workshop\Workshop Exrecises and Manuals\Template Labs\BLE Lab 2\BLE Lab 2.cydsn\BLE Lab 2.cyprj
--- Generated: 06/26/2015 12:22:37
+-- Project:   C:\Users\think\Documents\GitHub\ECE9047_Group11_Lab-3\BLE Lab 3\BLE Lab 2.cydsn\BLE Lab 2.cyprj
+-- Generated: 06/14/2016 22:32:17
 -- PSoC Creator  3.2
 
 ENTITY \BLE Lab 2\ IS
@@ -60,7 +60,7 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 2\ IS
     SIGNAL \ADC:Net_3111_8\ : bit;
     SIGNAL \ADC:Net_3111_9\ : bit;
     SIGNAL \ADC:Net_3112\ : bit;
-    SIGNAL \BLE:Net_15\ : bit;
+    SIGNAL \BLE_1:Net_15\ : bit;
     SIGNAL \Opamp:Net_12\ : bit;
     SIGNAL __ONE__ : bit;
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
@@ -86,8 +86,8 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 2\ IS
     ATTRIBUTE Location OF Wakeup_ISR : LABEL IS "[IntrHod=(0)][IntrId=(2)]";
     ATTRIBUTE Location OF \ADC:IRQ\ : LABEL IS "[IntrHod=(0)][IntrId=(15)]";
     ATTRIBUTE Location OF \ADC:cy_psoc4_sar\ : LABEL IS "F(SARADC,0)";
-    ATTRIBUTE Location OF \BLE:bless_isr\ : LABEL IS "[IntrHod=(0)][IntrId=(12)]";
-    ATTRIBUTE Location OF \BLE:cy_m0s8_ble\ : LABEL IS "F(BLE,0)";
+    ATTRIBUTE Location OF \BLE_1:bless_isr\ : LABEL IS "[IntrHod=(0)][IntrId=(12)]";
+    ATTRIBUTE Location OF \BLE_1:cy_m0s8_ble\ : LABEL IS "F(BLE,0)";
     ATTRIBUTE Location OF \Opamp:cy_psoc4_abuf\ : LABEL IS "F(OA,0)";
     COMPONENT interrupt
         PORT (
@@ -809,16 +809,16 @@ BEGIN
             trigger => open,
             data_hilo_sel => open);
 
-    \BLE:bless_isr\:interrupt
+    \BLE_1:bless_isr\:interrupt
         GENERIC MAP(
             int_type => "10")
         PORT MAP(
-            interrupt => \BLE:Net_15\,
+            interrupt => \BLE_1:Net_15\,
             clock => ClockBlock_HFCLK);
 
-    \BLE:cy_m0s8_ble\:p4blecell
+    \BLE_1:cy_m0s8_ble\:p4blecell
         PORT MAP(
-            interrupt => \BLE:Net_15\);
+            interrupt => \BLE_1:Net_15\);
 
     \Opamp:cy_psoc4_abuf\:p4abufcell
         GENERIC MAP(

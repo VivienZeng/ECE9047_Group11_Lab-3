@@ -1,5 +1,5 @@
 -- Project:   BLE Lab 2
--- Generated: 06/26/2015 12:22:36
+-- Generated: 06/14/2016 22:32:08
 -- PSoC Creator  3.2
 
 ENTITY \BLE Lab 2\ IS
@@ -60,7 +60,7 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 2\ IS
     SIGNAL \ADC:Net_3111_8\ : bit;
     SIGNAL \ADC:Net_3111_9\ : bit;
     SIGNAL \ADC:Net_3112\ : bit;
-    SIGNAL \BLE:Net_15\ : bit;
+    SIGNAL \BLE_1:Net_15\ : bit;
     SIGNAL \Opamp:Net_12\ : bit;
     SIGNAL __ONE__ : bit;
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
@@ -799,16 +799,16 @@ BEGIN
             trigger => open,
             data_hilo_sel => open);
 
-    \BLE:bless_isr\:interrupt
+    \BLE_1:bless_isr\:interrupt
         GENERIC MAP(
             int_type => "10")
         PORT MAP(
-            interrupt => \BLE:Net_15\,
+            interrupt => \BLE_1:Net_15\,
             clock => ClockBlock_HFCLK);
 
-    \BLE:cy_m0s8_ble\:p4blecell
+    \BLE_1:cy_m0s8_ble\:p4blecell
         PORT MAP(
-            interrupt => \BLE:Net_15\);
+            interrupt => \BLE_1:Net_15\);
 
     \Opamp:cy_psoc4_abuf\:p4abufcell
         GENERIC MAP(
